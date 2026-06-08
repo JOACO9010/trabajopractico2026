@@ -30,7 +30,9 @@ let numerofavorito = 7
 console.log ("Mi comida favorita son los "+comidafavorita+", mi color favorito es el "+colorfavorito+" y mi número favorito es el "+numerofavorito)
 let pais
 pais = "argentina"
-console.log
+console.log (pais)
+pais = "brasil"
+console.log (pais)
 
 
 

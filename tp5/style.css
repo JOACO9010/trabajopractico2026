@@ -1,0 +1,16 @@
+.introduccion{
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+.desarrollo{
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
