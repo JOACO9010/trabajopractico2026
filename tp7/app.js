@@ -24,7 +24,7 @@ let Ej3 = document.querySelector('#Ej3')
 let botonEj3 = document.querySelector('#botonEj3')
 let nombreUsuario2 = 'Jorge'
 botonEj3.onclick = function(){
-    if (nombreUsuario2 == 'jorge'||nombreUsuario2 == 'Roberto'){
+    if (nombreUsuario2 == 'Jorge'||nombreUsuario2 == 'Roberto'){
         Ej3.textContent = 'Bienvenido + nombreUsuario2 + , ¿como estas?' 
     } else {
         Ej3.textContent = 'Bienvenido + nombreUsuario2'
