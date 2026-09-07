@@ -16,8 +16,8 @@ let botonEj2 = document.querySelector('#btn2')
 let input2 = document.querySelector("#input2")
 
 botonEj2.onclick = function(){
-    if (input2.value == 'Julian'){
-        Ej2.textContent = "Bienvenido Julian, ¿como estas?"
+    if (input2.value == 'Nahuel'){
+        Ej2.textContent = "Bienvenido Nahuel, ¿como estas?"
     } else {
         Ej2.textContent = "Bienvenido usuario"
     }
@@ -41,11 +41,11 @@ let input4 = document.querySelector('#input4')
 
 botonEj4.onclick = function(){
     if (input4.value > 0) {
-        Ej4.textContent = 'el numero es positivo'
+        Ej4.textContent = 'El numero es positivo'
     } else if (input4.value < 0) {
-        Ej4.textContent = 'el numero es negativo'
+        Ej4.textContent = 'El numero es negativo'
     } else {
-        Ej4.textContent = 'el numero es cero'
+        Ej4.textContent = 'El numero es cero'
     }
 }
 
@@ -55,15 +55,15 @@ let input5 = document.querySelector('#input5')
 
 botonEj5.onclick = function(){
     if (input5.value >= 6 && input5.value <= 11) {
-        Ej5.textContent = 'niño'
+        Ej5.textContent = 'Eres un niño (6 a 11 años) '
     } else if (input5.value>= 12 && input5.value <= 18) {
-        Ej5.textContent = 'adolescente'
+        Ej5.textContent = 'Eres un adolescente'
     } else if (input5.value>= 19 && input5.value <= 26) {
-        Ej5.textContent = 'joven'
+        Ej5.textContent = 'Eres un joven (19 a 26 años)'
     } else if (input5.value>= 27 && input5.value <= 59) {
-        Ej5.textContent = 'adulto'
+        Ej5.textContent = 'Eres un adulto (27 a 59 años)'
     } else if (input5.value>= 60) {
-        Ej5.textContent = 'anciano'
+        Ej5.textContent = 'Eres un anciano (60 años o más)'
     } else {
         Ej5.textContent = 'edad no valida'
     }
@@ -73,10 +73,10 @@ let botonEj6 = document.querySelector('#btn6')
 let input6 = document.querySelector('#input6')
 
 botonEj6.onclick = function(){
-    if (input6.value == 'lunes' || input6.value == 'martes' || input6.value == 'miercoles' || input6.value == 'jueves' || input6.value == 'viernes') {
-        Ej6.textContent = 'es un dia laborable'
-    } else if (input6.value == 'sabado' || input6.value == 'domingo') {
-        Ej6.textContent = 'es fin de semana'
+    if ((input6.value == 'lunes' || input6.value == 'martes' || input6.value == 'miercoles' || input6.value == 'jueves' || input6.value == 'viernes')) {
+        Ej6.textContent = 'Es un dia laborable'
+    } else if ((input6.value == 'sabado' || input6.value == 'domingo')) {
+        Ej6.textContent = 'Es fin de semana'
     }
 }
 
@@ -86,9 +86,9 @@ let input7 = document.querySelector('#input7')
 
 botonEj7.onclick = function(){
     if (input7.value == 'secreto') {
-        Ej7.textContent = 'acceso concedido'
+        Ej7.textContent = 'Acceso concedido'
     } else {
-        Ej7.textContent = 'acceso denegado'
+        Ej7.textContent = 'Acceso denegado'
     }
 }
 
